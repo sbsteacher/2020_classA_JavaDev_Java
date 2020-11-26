@@ -2,7 +2,7 @@ package com.koreait.first.control;
 
 import java.util.Scanner;
 
-public class if4 {
+public class if4_1 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -10,12 +10,16 @@ public class if4 {
 		String gender = scan.next();
 		System.out.print("키를 입력해 주세요 : ");
 		int height = scan.nextInt();
-				
+		
+		
+		
 		if("남".equals(gender)) { //166
-			if(height > 165) {
+			int avgHeight = 165;
+			
+			if(height > avgHeight) {
 				System.out.println("평균 초과입니다.");
 				
-			} else if(height < 165) {
+			} else if(height < avgHeight) {
 				System.out.println("평균 미만입니다.");
 				
 			} else {
@@ -23,10 +27,12 @@ public class if4 {
 			}
 			
 		} else if("여".equals(gender)) { //157
-			if(height > 157) {
+			int avgHeight = 157;
+			
+			if(height > avgHeight) {
 				System.out.println("평균 초과입니다.");
 				
-			} else if(height < 157) {
+			} else if(height < avgHeight) {
 				System.out.println("평균 미만입니다.");
 				
 			} else {
