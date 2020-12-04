@@ -11,6 +11,10 @@ public class ObjTest4 {
 		//배열 복사하는 메소드 (깊은 복사)
 		int[] arr2 = copyArr(arr);
 		
+		
+		System.out.println(Arrays.toString(arr)); //[4, 7, 1, 9, 3]
+		System.out.println(Arrays.toString(arr2)); //[4, 7, 1, 9, 3]
+		
 		orderBy(arr2);
 				
 		System.out.println(Arrays.toString(arr)); //[4, 7, 1, 9, 3]

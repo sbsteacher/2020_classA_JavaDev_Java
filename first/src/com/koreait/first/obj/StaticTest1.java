@@ -19,10 +19,8 @@ public class StaticTest1 {
 		Tv.country = "France";
 		
 		tv2.printMe();
-		tv1.printMe();
-		
+		tv1.printMe();		
 	}
-
 }
 
 

@@ -11,11 +11,14 @@ public class StaticTest2 {
 		System.out.println("ic.sum : " + ic.sum());
 		
 		//static 메소드를 활용하여 계산
-		System.out.println("sum : " + StatCalc.sum(22, 55));
+		//System.out.println("sum : " + StatCalc.sum(22, 55));		
+		StatCalc sc = new StatCalc();
+		System.out.println("sum : " + sc.sum(22, 55));
+		
 	}
 }
 class StatCalc {
-	static int sum(int n1, int n2) {
+	int sum(int n1, int n2) {
 		return n1 + n2;
 	}
 }

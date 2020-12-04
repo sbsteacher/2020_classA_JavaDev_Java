@@ -7,16 +7,17 @@ public class ObjTest {
 		NumberBox nbx = new NumberBox();//대구 주택
 		nbx.num = 10;		
 		
+		changeVal(num);
 		changeVal(nbx);
-		System.out.println("nbx.num: " + nbx.num);
 		
+		System.out.println("num: " + num);
+		System.out.println("nbx.num: " + nbx.num);		
 	}
 	
 	public static void changeVal(int num) {
 		num = 20;
 	}	
-	public static void changeVal(NumberBox pNbx) {	
-		pNbx = new NumberBox(); //서울 주택;
+	public static void changeVal(NumberBox pNbx) {		
 		pNbx.num = 20;
 	}	
 	
