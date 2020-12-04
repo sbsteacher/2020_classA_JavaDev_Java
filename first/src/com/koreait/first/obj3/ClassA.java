@@ -5,8 +5,9 @@ public class ClassA {
 	private int age;
 		
 	public ClassA(String a, int b) {
+		System.out.println("ClassA 생성자");
 		this.name = a;
-		this.age = b;
+		this.age = b;		
 	}
 	
 	public void print() {

@@ -6,9 +6,12 @@ public class ClassB extends ClassA {
 	}
 	
 	@Override
-	public void print() {
-		super.print();
+	public void print() {		
 		System.out.println("B: " + getName() + "/" + getAge());
+	}
+	
+	public void drive() {
+		System.out.println("driving!!");
 	}
 }
 
