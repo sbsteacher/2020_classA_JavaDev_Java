@@ -4,8 +4,7 @@ public class ClassA {
 	private String name;
 	private int age;
 		
-	public ClassA(String a, int b) {
-		System.out.println("ClassA 생성자");
+	public ClassA(String a, int b) {		
 		this.name = a;
 		this.age = b;		
 	}

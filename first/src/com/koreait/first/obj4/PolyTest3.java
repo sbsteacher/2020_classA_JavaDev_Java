@@ -14,8 +14,17 @@ public class PolyTest3 {
 	}
 	
 	public static void polyCry(Animal ani) {
-		ani.crying();
-		
-		
+		ani.crying();		
+		if(ani instanceof Dog) {
+			//Dog dog = (Dog)ani;
+			//dog.shakeTail();			
+			((Dog)ani).shakeTail();
+		}
 	}	
 }
+
+
+
+
+
+
