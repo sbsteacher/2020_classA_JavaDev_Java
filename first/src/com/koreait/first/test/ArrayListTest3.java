@@ -11,7 +11,8 @@ public class ArrayListTest3 {
 		list.add(300);
 		list.add(1, 500);
 		
-		
+		String result = list.toString() + "ddd";
+		System.out.println(result);
 		System.out.println(list);
 		System.out.println("--del : " + list.remove(1)); // --del : 500
 		System.out.println(list.toString());
